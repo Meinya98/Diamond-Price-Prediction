@@ -7,12 +7,14 @@ Workflow:
 - Use .info() and .describe() for basic statistics description
 - Use .duplicated() to check duplicated data
 - Delete index column
- Data exploration (numerical):
+\
+Data exploration (numerical):
 - Visualize with a histogram to see skewed features
 - Use VarianceThreshold() to select non-quasi-constant features
 - Visualize with a heatmap correlation to select moderate to highly correlated features to the target (prices)
 - Visualize with a scatterplot to detect and delete outliers
- Data exploration (categorical):
+\
+Data exploration (categorical):
 - Merge with the numerical data
 ### 2. Feature Engineering
 Workflow: 
